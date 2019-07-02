@@ -6,4 +6,5 @@ A demo of screen recordering, includes:
 - View recordings
 - Playback
 
-![Screenshot](screenshot.gif)
+## Screenshot 
+<img src="screenshot.gif" width="30%">
