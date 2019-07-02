@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Screen Recorder</string>
+    <string name="action_about">About</string>
+    <string name="zen8labs">zen8labs demo</string>
+
+    <string name="action_record">Record</string>
+    <string name="action_list">History</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_denied_message">App going to close. You should allow required permissions to let record
+        function work property
+    </string>
+    <string name="ok">CLOSE</string>
+    <string name="replace_action">Replace with your own action</string>
+    <string name="action">Action</string>
+    <string name="stop_record">Stop record</string>
+    <string name="record">Record</string>
+    <string name="start_record">Start record</string>
+    <string name="stop">Stop</string>
+    <string name="list_record">List records</string>
+    <string name="record_stopped">Recording Stopped</string>
+    <string name="init_error_media_recorder">Unable to init MediaRecorder</string>
+    <string name="start_record_fail">Unable to start record</string>
+    <string name="stop_record_fail">Stop recording screen failed</string>
+    <string name="stop_record_success">Stop recording screen success</string>
+    <string name="record_error">Recording error</string>
+    <string name="recording">Recording&#8230;</string>
+    <string name="recording_message">Click float button to stop</string>
+    <string name="media_stopped">MediaProjection Stopped</string>
+    <string name="fail_storage">Failed to get External Storage</string>
+    <string name="fail_directory">Failed to create Recordings directory</string>
+    <string name="screen_cast_denied">Screen Cast Permission Denied</string>
+    <string name="record_item_description">Record %1$d</string>
+    <string name="stop_record_wrn">Screen Record onprogress, please stop before quit app</string>
+    <string name="empty">No record playing</string>
+    <string name="empty_hint">Let record by click on Floating button</string>
+</resources>

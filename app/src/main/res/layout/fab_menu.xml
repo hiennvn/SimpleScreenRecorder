@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myfab_main">
+
+    <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:paddingStart="0dp"
+            android:paddingEnd="@dimen/fab_margin"
+            android:paddingBottom="@dimen/fab_margin_bottom"
+            fab:menu_shadowColor="@color/fabLabelPress"
+            fab:menu_colorNormal="@color/colorPrimary"
+            fab:menu_colorPressed="@color/colorPrimaryDark"
+            fab:menu_labels_colorNormal="@color/fabLabelNormal"
+            fab:menu_labels_colorPressed="@color/fabLabelPress"
+            fab:menu_labels_colorRipple="@color/fabLabelRipple"
+            fab:menu_labels_textColor="@color/fabLabelTextColor"
+            fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            fab:menu_colorRipple="#C8E6C9"
+            fab:elevation="6dp"
+            fab:fab_shadowColor="@color/fabLabelPress"
+            fab:fab_shadowRadius="6dp"
+            fab:fab_showShadow="true"
+            fab:menu_fab_size="normal"
+            fab:menu_backgroundColor="#ccffffff">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_record"
+            fab:fab_label="@string/action_record"
+            fab:fab_colorNormal="@color/fabNormal"
+            fab:fab_colorPressed="@color/fabPress"
+            fab:fab_colorRipple="@color/fabRipple"
+            fab:fab_size="mini"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_list"
+            fab:fab_label="@string/action_list"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/fabNormal"
+            fab:fab_colorPressed="@color/fabPress"
+            fab:fab_colorRipple="@color/fabRipple"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>
